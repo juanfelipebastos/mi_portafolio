@@ -44,7 +44,7 @@
             <div class="presentacion">
                 <p class="bienvenida">Bienvenidos</p>
                 <h2>Juan Felipe Bastos Herrera</h2>
-                <p class="descripcion">Desarrollador full-stack Con mas de un año de experiencia</p>
+                <p class="descripcion">Desarrollador full-stack</p>
                 <a href="#portfolio">Ir a Portafolio</a>
             </div>
         </div>
@@ -59,7 +59,7 @@
             <p class="titulo-seccion">Sobre Mi</p>
             <h2>Hola, Soy <span>Felipe Bastos</span> </h2>
             <h3>Desarrollador Web</h3>
-            <p> Desarrollador full-stack autodidacta, con mas de un año de experiencia, he trabajado en mis propios proyectos, en el lenguaje de javascript con el framework de Angular, y bases de datos y back-end con mysql y springboot.</p>
+            <p> Desarrollador full-stack autodidacta, he trabajado en mis propios proyectos, en el lenguaje de javascript con el framework de Angular, y bases de datos y back-end con mysql y springboot.</p>
             <p>Soy un desarrollador eficiente a la hora de solucionar problemas, con sentido de pertenencia, en busca de nuevos retos los cuales me hagan establecerme en una empresa,  poder ayudar en lo que mas pueda, para que podamos progresar de manera conjunta y alcanzar los objetivos previstos.</p>
             <a href="https://docs.google.com/document/d/e/2PACX-1vTchPf7Tgw5jxN0CJOyShO2jK6h_3PaTfxikfrjNSiSL3-tuHU-abmmNdUcPgbG7w/pub" target="_blank">Ver CV</a>
         </div>
@@ -146,48 +146,50 @@
         <div class="fila">
             <div class="proyecto">
                 <div class="overlay"></div>
-                <img src="img/proyecto1.jpg" alt="">
+                <img src="img/img1.png" alt="">
                 <div class="info">
-                    <h4>Descripcion Proyecto</h4>
-                    <p>Diseño Web</p>
+                    <h4>Conversor de moneda</h4>
+                    <p>Conversor de moneda y peso en kg, con el lenguaje java</p>
+                    <a href="https://github.com/juanfelipebastos/Conversor">Ver ahora</a>
                 </div>
             </div>
             <div class="proyecto">
                 <div class="overlay"></div>
-                <img src="img/proyecto2.jpg" alt="">
+                <img src="img/img2.png" alt="">
                 <div class="info">
-                    <h4>Descripcion Proyecto</h4>
-                    <p>Diseño Web</p>
+                    <h4>Encriptador</h4>
+                    <p>Este es un encriptador de palabras el cual lo hice en el bootcamp de alura con oracle ONE</p>
+                    <a href="https://github.com/juanfelipebastos/Encriptador-Challenge" target="_blank">ver ahora</a>
                 </div>
             </div>
             <div class="proyecto">
                 <div class="overlay"></div>
-                <img src="img/proyecto3.jpg" alt="">
+                <img src="img/ecommerce.png" alt="">
                 <div class="info">
-                    <h4>Descripcion Proyecto</h4>
-                    <p>Diseño Web</p>
+                    <h4>Proyecto Ecommerce</h4>
+                    <p>En desarrollo...</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SECCTION C O N T A C T O -->
-    <section id="contacto">
+    <section id="contactform">
         <h3 class="titulo-seccion">Contactame ahora</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form id="form" action="https://formspree.io/f/xzzpokbz" method="POST">
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                    <input type="text" id="nombre" name="nombre"  placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" id="email" name="email" placeholder="Dirección de Email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
+                    <input type="text" id="tema" name="tema" placeholder="Tema..." class="input-full">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    <textarea name="" id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                <input type="submit" value="Enviar Mensaje" class="submit">
             </form>
         </div>
     </section>
